@@ -1,3 +1,4 @@
+# Safari Keyboard Shortcuts
 | Description | Shortcut |
 | --- | --- |
 | Jump straight to the URL bar | ⌘L |

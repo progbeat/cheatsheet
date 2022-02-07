@@ -9,3 +9,4 @@ Start interactive bash session into the container | `docker exec -it CONTAINER_N
 Add a secret | `printf "This is a secret" \| docker secret create my_secret_data -`
 Get IP address of container | `docker inspect -f "{{ .NetworkSettings.IPAddress }}" CONTAINER_NAME`
 Save container state into a new image `IMAGE_NAME` | `docker commit CONTAINER_ID IMAGE_NAME`
+Print the container's logs starting from the last 100 lines | `docker logs -f -n 100 CONTAINER_ID`
